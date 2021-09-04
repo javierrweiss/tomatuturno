@@ -18,11 +18,92 @@
 clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
-; Evaluating file: loteria-experimento.clj
+; Evaluating file: advinanza-experimento.clj
 nil
-clj꞉tomatuturno.loteria-experimento꞉> 
-; Evaluating file: loteria-experimento.clj
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Execution error (NullPointerException) at java.util.concurrent.ConcurrentHashMap/get (ConcurrentHashMap.java:936).
+; null
+clj꞉tomatuturno.adivinanza-experimento꞉> 
 nil
-clj꞉tomatuturno.loteria-experimento꞉> 
-7920
-clj꞉tomatuturno.loteria-experimento꞉> 
+; WARNING: reduce already refers to: #'clojure.core/reduce in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/reduce
+; WARNING: take already refers to: #'clojure.core/take in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/take
+; WARNING: map already refers to: #'clojure.core/map in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/map
+; WARNING: transduce already refers to: #'clojure.core/transduce in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/transduce
+; WARNING: into already refers to: #'clojure.core/into in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/into
+; WARNING: partition already refers to: #'clojure.core/partition in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/partition
+; WARNING: merge already refers to: #'clojure.core/merge in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/merge
+; WARNING: partition-by already refers to: #'clojure.core/partition-by in namespace: tomatuturno.adivinanza-experimento, being replaced by: #'clojure.core.async/partition-by
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+nil
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Execution error (FileNotFoundException) at tomatuturno.adivinanza-experimento/eval16475 (REPL:7).
+; Could not locate clojure/tools/deps/alpha/repl__init.class, clojure/tools/deps/alpha/repl.clj or clojure/tools/deps/alpha/repl.cljc on classpath.
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Execution error (IllegalAccessError) at tomatuturno.adivinanza-experimento/eval16477 (REPL:7).
+; add-libs does not exist
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Execution error (IllegalAccessError) at tomatuturno.adivinanza-experimento/eval17686 (REPL:7).
+; add-libs does not exist
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+[clojure.tools.deps.alpha.extensions.deps :refer [add-lib]]
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/arbitro
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/arbitro
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/arbitro
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error compiling at (src/advinanza-experimento.clj:0:0).
+; Unable to resolve symbol: números in this context
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+138
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+225
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error compiling at (src/advinanza-experimento.clj:0:0).
+; Unable to resolve symbol: get-num in this context
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error compiling at (src/advinanza-experimento.clj:14:20).
+; Unable to resolve symbol: get-num in this context
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/arbitro
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error compiling at (src/advinanza-experimento.clj:14:20).
+; Unable to resolve symbol: get-num in this context
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error compiling at (src/advinanza-experimento.clj:13:3).
+; Unable to resolve symbol: curr-num in this context
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/arbitro
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#function[tomatuturno.adivinanza-experimento/arbitro]
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#function[tomatuturno.adivinanza-experimento/arbitro]
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+276
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+417
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error macroexpanding clojure.core/defn at (src/advinanza-experimento.clj:8:1).
+; rand-int - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(rand-int 500) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/generar-numero
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+; Syntax error macroexpanding clojure.core/defn at (src/advinanza-experimento.clj:8:1).
+; () - failed: Insufficient input at: [:fn-tail] spec: :clojure.core.specs.alpha/defn-args
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/generar-numero
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+158
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/jugador1
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/jugador2
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/jugador3
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/jugador4
+clj꞉tomatuturno.adivinanza-experimento꞉> 
+#'tomatuturno.adivinanza-experimento/jugador5
+clj꞉tomatuturno.adivinanza-experimento꞉> 
